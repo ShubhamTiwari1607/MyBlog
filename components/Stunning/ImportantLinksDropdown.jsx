@@ -34,7 +34,7 @@ export default function ImportantLinksDropdown() {
   <div className="absolute left-0 top-full mt-2 w-40 bg-black text-white rounded-md shadow-lg z-50">
 
     <a
-      href="/resume.pdf"
+      href="/ShubhamTiwari.pdf"
       className="block px-4 py-2 hover:bg-gray-800"
       target="_blank"
       rel="noopener noreferrer"
