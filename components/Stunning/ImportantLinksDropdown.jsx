@@ -25,17 +25,17 @@ export default function ImportantLinksDropdown() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setOpen(!open)}
-        className="hover:text-green-400 transition"
+        className="rounded-lg px-3 py-2 hover:bg-white/10 hover:text-green-400 transition-colors"
       >
         Important Links
       </button>
 
       {open && (
-  <div className="absolute left-0 top-full mt-2 w-40 bg-black text-white rounded-md shadow-lg z-50">
+  <div className="absolute left-0 top-full mt-2 w-44 overflow-hidden rounded-xl border border-white/10 bg-black/95 text-white shadow-lg z-50">
 
     <a
       href="/ShubhamTiwari.pdf"
-      className="block px-4 py-2 hover:bg-gray-800"
+      className="block px-4 py-2 hover:bg-white/10"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -44,7 +44,7 @@ export default function ImportantLinksDropdown() {
 
     <a
       href="https://www.linkedin.com/in/shubham-tiwari16"
-      className="block px-4 py-2 hover:bg-gray-800"
+      className="block px-4 py-2 hover:bg-white/10"
       target="_blank"
       rel="noopener noreferrer"
     >
