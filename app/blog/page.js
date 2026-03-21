@@ -1,19 +1,7 @@
 import Link from "next/link";
+import { blogs } from "../../lib/blog-data";
 
 export default function BlogPage() {
-  const blogs = [
-    {
-      id: 1,
-      title: "Dhurandar",
-      body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    },
-    {
-      id: 2,
-      title: "Jab tak h jaan",
-      body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    },
-  ];
-
   return (
     <div style={{ textAlign: "center", fontFamily: "cursive", fontSize: "20px" }}>
       <h1 style={{ fontSize: "40px" }}>Blogs posts</h1>
