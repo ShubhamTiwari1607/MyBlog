@@ -66,9 +66,9 @@ export default function AuthStatus() {
           </div>
           <Link
             className="rounded-lg px-3 py-2 hover:bg-white/10 hover:text-green-400 transition-colors"
-            href="/profile"
+            href="/dashboard"
           >
-            Profile
+            Dashboard
           </Link>
           <button
             type="button"
